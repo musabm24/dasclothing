@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    height: 20px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 15px;
+    color: #000000;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color: #263f37c5;
+    transform: translateY(-5px);
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 15px;
+    color: #000000;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.logo:hover{
+    text-decoration: none;
+    color: #263f37c5;
+    transform: translateY(-5px);
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 15px;
+    color: #000000;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.navbar a:hover{
+    color: #263f37c5;
+    transform: translateY(-5px);
+}
+
+.center-text{
+    margin-top: 45px;
+}
+
+.spec{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/*Featured products*/
+.heading{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    
+}
+.row2{
+    display: inline-block;
+    background-color: white;
+    padding: 30px;
+    
+}
+
+.f-content{
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-bottom: 50px;
+}
+
+.fbtn{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.fbtn:hover{
+    background: #2e6476;
+}
+
+
+/*footer*/
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #000000;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.copyright p{
+    color: #ffffff;
+}
