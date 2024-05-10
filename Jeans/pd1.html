@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Jeans</title>
+        <link rel="stylesheet" href="http://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/remixicon@4.1.0/fonts/remixicons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+        <script src="/js/index.js"></script>
+        <link rel="stylesheet" href="/Shirts/pd.css">
+    </head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">DAS Clothing</a>
+            <nav class="navbar">
+                <a href="/shop/index.html">Home</a>
+                <a href="/Shirts/shirts.html">Shirts</a>
+                <a href="/t-shirts/tshirts.html">T-shirts</a>
+                <a href="/Jeans/jeans.html">Jeans</a>
+                <a href="/index.html/#contact">Contact</a>
+            </nav>
+            <div class="social-icons">
+                <a href="/cart/cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="/Account/SignIn/signin.html"><i class="fa-solid fa-user"></i></a>
+            </div>
+    </header>
+    <section class="product-container">
+        <div class="img-card">
+            <img src="n8.png" alt="" id="featured-image">
+        </div>
+        <div class="product-info">
+            <h3>Long black jeans</h3>
+            <h5>Price: £35.99 <del>45</del></h5>
+            <p>Introducing our classic Long Black Jeans, the ultimate wardrobe staple for timeless style and everyday comfort. Crafted from premium denim, these jeans offer a perfect blend of durability and flexibility, making them ideal for all-day wear.
+
+                The Long Black Jeans feature a versatile deep blue wash that effortlessly transitions from casual to more polished looks. Whether you're dressing for a laid-back weekend or a day at the office, these jeans provide a flattering silhouette with a straight leg cut that complements any body type.
+                
+                </p>
+
+            <div class="sizes">
+                <p>Size:</p>
+                <select name="Size" id="size" class="size-option">
+                    <option value="xxl">XXL</option>
+                    <option value="xl">XL</option>
+                    <option value="medium">Medium</option>
+                    <option value="small">Small</option>
+                </select>
+            </div>
+
+            <div>
+                <button onclick="addItem(7)" class="fbtn">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
