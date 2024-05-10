@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basket</title>
+        <link rel="stylesheet" href="http://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/remixicon@4.1.0/fonts/remixicons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+        <script src="/js/index.js"></script>
+        <link rel="stylesheet" href="cart.css">
+    </head>
+    <body>
+
+        <header class="header">
+            <a href="#" class="logo">DAS Clothing</a>
+                <nav class="navbar">
+                    <a href="/shop/index.html">Home</a>
+                    <a href="/Shirts/shirts.html">Shirts</a>
+                    <a href="/t-shirts/tshirts.html">T-shirts</a>
+                    <a href="/Jeans/jeans.html">Jeans</a>
+                    <a href="/index.html/#contact">Contact</a>
+                </nav>
+                <div class="social-icons">
+                    <a href="/cart/cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="/Account/SignIn/signin.html"><i class="fa-solid fa-user"></i></a>
+                </div>
+        </header>
+        <section id="cart">
+            <h2>Your Cart</h2>
+            <ul id="cart-items">
+            </ul>
+            <div id="cart-total">
+                Total: £<span id="cart-total-value">0.00</span>
+            </div>
+            <button id="checkout-btn">Checkout</button>
+        </section>
+
+        
+        <script src="js/index.js"></script>
+
+        <script>
+            document.getElementById('checkout-btn').addEventListener('click', function() {
+                window.location.href = '/Checkout/checkout.html';
+            });
+        </script>
+    </body>
+</html>
